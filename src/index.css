@@ -1,0 +1,53 @@
+:root {
+  zoom: 90%;
+  --vivocolor: #7030a0;
+  --primary: #55717E;
+  --dark: #061b28;
+  --grey: #756388;
+  --light: #ffffff;
+}
+.container{
+  margin-top: 100px;
+}
+
+
+/* a merda do scroll*/
+*::-webkit-scrollbar {
+  width: 14px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: rgb(102, 0, 153);
+  filter: blur(1px);
+  border-radius: 10px;
+  border: 4px solid #ffffff;
+}
+
+.page-content {
+  margin-top: 65px;
+  /* ajuste conforme necessário para evitar que a tabela sobreponha o header */
+  padding-left: 100px;
+  /* ajuste conforme necessário para evitar que a tabela sobreponha o sidebar esquerdo */
+  padding-right: 5px;
+  /* ajuste conforme necessário para evitar que a tabela sobreponha o sidebar direito */
+  padding-bottom: 5px;
+}
+body {
+  margin: 0;
+  height: 100%;
+  overflow-x: auto;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

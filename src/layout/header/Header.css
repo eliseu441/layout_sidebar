@@ -1,0 +1,63 @@
+.cardTeste{
+}
+
+
+.fixed{
+    display:block;
+    position:absolute;
+    top:0;
+    left:0;
+    width:90%;
+    background:white;
+    text-align:center;
+    padding: 20px 0;
+}
+
+.color-nav{
+    background: rgb(102,0,153);
+    background: linear-gradient(0deg, rgba(102,0,153,1) 0%, rgba(108,11,125,1) 100%, rgba(88,9,121,1) 100%);
+  
+}
+
+.button-style{
+    background-color: transparent;
+    border-radius: 20%;
+    border-width: 1px;
+    border-color: white;
+    padding: 7px;
+}
+
+.purple{
+    color: #7030a0;
+
+}
+
+.color{
+    background-color: rgb(211, 211, 211);
+}
+
+.font-size{
+    font-size: 10px;
+}
+
+.textcard{
+    margin-left: 20px;
+}
+
+
+.text-size{
+    font-size: 12px;
+}
+
+.align-center{
+    display: flex;
+    
+}
+
+.size{
+    width: 250px;
+}
+
+.card-size{
+    width: 250px;
+}

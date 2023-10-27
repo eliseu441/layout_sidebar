@@ -1,0 +1,56 @@
+{
+  "name": "layout-v1",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/runtime": "^7.22.6",
+    "@material-ui/core": "^4.12.4",
+    "@popperjs/core": "^2.11.8",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.4.0",
+    "bootstrap": "^5.3.2",
+    "bootstrap-icons": "^1.10.5",
+    "dagre": "^0.8.5",
+    "dotenv": "^16.3.1",
+    "react": "^18.2.0",
+    "react-dates": "^21.8.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.12.1",
+    "react-scripts": "^5.0.1",
+    "react-switch": "^7.0.0",
+    "react-toast-notifications": "^2.4.4",
+    "react-widgets": "^5.8.4",
+    "styled-components": "^6.0.7",
+    "typescript": "^5.1.6",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start --openssl-legacy-provider",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "eslint-plugin-react": "^7.32.2"
+  }
+}
